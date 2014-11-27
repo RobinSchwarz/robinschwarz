@@ -1,0 +1,92 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding:11px;
+  margin-left:-5px;
+  argin-right:-5px;
+  
+  
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url("0709a9ecf085870426221bc51c559a18.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+.jumbotron .container #impressum{
+  position: relative;
+}
+
+.jumbotron h1 {
+  color: black;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron ul {
+  color: black;  
+  font-family: 'Shift', sans-serif;
+  
+  font-size:20px;
+}
+.jumbotron h2 {
+  color: black;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron a {
+	font-size:20px;
+  color: red;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: black;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+.learn-more .container{
+  margin-top:-65px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides{
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+  color: #393c3d;
+  font-size: 24px;
+}  
+.neighborhood-guides p{
+  font-size: 15px;
+  margin-bottom: 13px;
+}    
+.aktiv{
+	background-color:#ff6666;
+	border-radius:15px;
+	
+}

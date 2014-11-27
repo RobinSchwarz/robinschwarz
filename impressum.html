@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
+<link rel="stylesheet" href="text.css">
+
+</head>
+
+<body>
+	<div class="nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<ul class="pull-left">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="DasbinIch.html">Das bin ich</a></li>
+						<li><a href="link.html">Links</a></li>
+						<li class="aktiv"><a href="impressum.html">Impressum</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+
+					<form action="http://de.wikipedia.org/wiki" method="post"
+						target="_blank" name="frmWiki">
+
+						<table>
+							<tbody>
+								<tr>
+									<td><input maxlength="255" size="25" name="xsearch">
+										<input value="de" name="hl" type="hidden"></td>
+									<td><input
+										onclick="window.document.frmWiki.action = 'http://de.wikipedia.org/wiki/' + document.frmWiki.xsearch.value;"
+										value="Suche" name="btnG" type="submit"></td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="jumbotron">
+		<div class="container" id="impressum">
+			<h1>Impressum</h1>
+			<h2>Inhaber:</h2>
+			<div id="Adresse">
+				<p>Schwarz Robin</p>
+				<p>Beuernerstrae 22</p>
+				<p>35466 Rabenau</p>
+				<h2>E-Mail:</h2>
+				<p>robin.mathies.schwarz@mni.thm.de</p>
+				<h2>Bildquellennachweis:</h2>
+				<p>Hintergrundbild: Thomas Leth-Olsen,&bdquo;Window light&ldquo;</p>
+				<p><a href="http://creativecommons.org/licenses/by/2.0/de/deed.de">Some rights reserved</a></p>
+				<h2>Quelle:</h2>
+				<a href="http://piqs.de/">piqs.de</a>
+			</div>
+		</div>
+
+
+	</div>
+	</div>
+
+
+
+</body>
+</html>

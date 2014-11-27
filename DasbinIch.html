@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="text.css">
+    
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <div class="row">
+				<div class="col-md-9">
+					<ul class="pull-left">
+						<li ><a href="index.html">Home</a></li>
+						<li  class="aktiv"><a href="DasbinIch.html">Das bin ich</a></li>
+						<li><a href="link.html">Links</a></li>
+						<li><a href="impressum.html">Impressum</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+
+					<form action="http://de.wikipedia.org/wiki" method="post"
+						target="_blank" name="frmWiki">
+
+						<table>
+							<tbody>
+								<tr>
+									<td><input maxlength="255" size="25" name="xsearch">
+										<input value="de" name="hl" type="hidden"></td>
+									<td><input
+										onclick="window.document.frmWiki.action = 'http://de.wikipedia.org/wiki/' + document.frmWiki.xsearch.value;"
+										value="Suche" name="btnG" type="submit"></td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="jumbotron">
+    
+    
+    <div class="row">
+            <div class="col-md-1">
+			</div>
+		  <div class="col-md-10">
+			<h1>Das bin Ich</h1>
+			<p>Mein Name ist Robin Schwarz, ich bin 20 Jahre alt und Studiere an der Technischen-Hochschule Mittelhessen Informatik.</p>
+		    <h2>Meine Hobbys</h2>
+           <ul><li>Tischtennis</li>
+           <li>ich gehe oft ins Fitnessstudio</li>
+           <li>treffe mich mit Freunden</li>
+           <li>und lese gerne auch mal ein Buch </li></ul>
+		  </div>
+		  <div class="col-md-1">
+		  </div>
+	    </div>
+    </div>  
+     
+    
+	
+  </body>
+</html>
